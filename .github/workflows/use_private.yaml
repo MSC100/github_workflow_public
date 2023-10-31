@@ -3,6 +3,7 @@ name: Common Flow
 on:
   workflow_call:
 
+
 jobs:
   airgapped:
     name: Create Common Flow
