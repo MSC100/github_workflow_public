@@ -1,0 +1,10 @@
+name: Main Workflow
+
+on:
+  push:
+
+
+jobs:
+  bundle:
+    name: Create Main Workflow
+    uses: ./.github/workflows/use_private.yaml

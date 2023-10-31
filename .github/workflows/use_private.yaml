@@ -1,0 +1,9 @@
+name: Common Flow
+
+on:
+  workflow_call:
+
+jobs:
+  airgapped:
+    name: Create Common Flow
+    uses: MSC100/github_actions/blob/main/.github/workflows/test.yaml@main
